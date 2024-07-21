@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio Web Design</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./styles.css">
+	<script src="./scripts.js"></script>
+	<link rel="icon" type="image/jpg" href="./imgs/NSlogo.png">
+</head>
+<body>
+	<header>
+		<a href="#" class="logo-holder">
+			<div class="logo">NS</div>
+			<div class="logo-text">Portfolio Website</div>
+		</a>
+		<nav>
+			<ul id="menu">
+				<li>
+					<a href="#">Home</a>
+				</li>
+				<li>
+					<a href="#skills">Skills</a>
+				</li>
+				<li>
+					<a href="#projects">Projects</a>
+				</li>
+                <li>
+					<a href="#certifications">Certifications</a>
+				</li>
+				<li>
+					<a href="mailto:nehashah8520@gmail.com" class="button black">Contact Me</a>
+				</li>
+			</ul>
+			<a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
+				<svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+					<path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/>
+				</svg>
+			</a>
+		</nav>
+	</header>
+	<main>
+		<section class="hero container">
+			<div class="hero-blue">
+				<div>
+					<h1><small>Hi I'm</small>
+						Neha Shah
+					</h1>
+					<p>
+						<em>She/Her</em> <span></span>
+					</p>
+					<p>
+						Data and business analyst based in the DMV area with a keen interest in both finance and healthcare industries. I enjoy solving problems and telling stories from data! <span></span>
+					</p>
+					<!-- <div class="call-to-action">
+                        <a href="RESUME.docx" class="button black">
+							Resume
+						</a>
+					</div> -->
+					<div class="social-links">
+                        <a href="mailto:nehashah8520@gmail.com">
+							<img src="./imgs/mail.png" alt="LinkedIn" width="50" />
+						</a>
+						<a href="https://www.linkedin.com/in/ns-neha-shah/">
+							<img src="./imgs/linkedin.png" alt="LinkedIn" width="50" />
+						</a>
+                        <a href="https://github.com/nshah-11">
+							<img src="./imgs/github.png" alt="GitHub" width="50" />
+						</a>
+                        <a href="https://public.tableau.com/app/profile/neha.shah.ns/vizzes">
+							<img src="./imgs/tableau.png" alt="TableauPublic" width="50" />
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="hero-yellow">
+				<img src="./imgs/me.png" alt="Neha Shah" width="100%" />
+			</div>
+		</section>
+		<section class="logos container">
+			<div class="marquee">
+				<div class="track">
+                    <img src="./imgs/excel.png" alt="Excel" width="128"/>
+                    <img src="./imgs/R.png" alt="R" width="128"/>
+                    <img src="./imgs/RStudio.png" alt="RStudio" width="128"/>
+                    <img src="./imgs/Postgresql.png" alt="SQL" width="128"/>
+                    <img src="./imgs/SQLite.png" alt="SQL 2" width="128"/>
+                    <img src="./imgs/dbbrowser.png" alt="DB browser" width="128"/>
+                    <img src="./imgs/python.png" alt="Python" width="128"/>
+                    <img src="./imgs/jupyter.png" alt="Jupyter" width="128"/>
+                    <img src="./imgs/vscode.png" alt="VSCode" width="128"/>
+                    <img src="./imgs/anaconda.png" alt="Anaconda" width="128"/>
+                    <img src="./imgs/tableau.png" alt="Tableau" width="128"/>
+                    <img src="./imgs/Canva.png" alt="Canva" width="128"/>
+                    <img src="./imgs/html.png" alt="Canva" width="128"/>
+                    <img src="./imgs/css.png" alt="Canva" width="128"/>
+                    <img src="./imgs/javascript.png" alt="Canva" width="128"/>
+                    <img src="./imgs/excel.png" alt="Excel" width="128"/>
+                    <img src="./imgs/R.png" alt="R" width="128"/>
+                    <img src="./imgs/RStudio.png" alt="RStudio" width="128"/>
+                    <img src="./imgs/Postgresql.png" alt="SQL" width="128"/>
+                    <img src="./imgs/SQLite.png" alt="SQL 2" width="128"/>
+                    <img src="./imgs/dbbrowser.png" alt="DB browser" width="128"/>
+                    <img src="./imgs/python.png" alt="Python" width="128"/>
+                    <img src="./imgs/jupyter.png" alt="Jupyter" width="128"/>
+                    <img src="./imgs/vscode.png" alt="VSCode" width="128"/>
+                    <img src="./imgs/anaconda.png" alt="Anaconda" width="128"/>
+                    <img src="./imgs/tableau.png" alt="Tableau" width="128"/>
+                    <img src="./imgs/Canva.png" alt="Canva" width="128"/>
+                    <img src="./imgs/html.png" alt="Canva" width="128"/>
+                    <img src="./imgs/css.png" alt="Canva" width="128"/>
+                    <img src="./imgs/javascript.png" alt="Canva" width="128"/>
+				</div>
+			</div>
+		</section>
+		<section id="skills" class="skills container">
+			<h2>
+				<small>About Me</small>
+				Skills
+			</h2>
+			<div class="holder-blue">
+				<div class="left-column">
+					<h3>Programming Languages</h3>
+					<ul>
+						<li>R</li>
+						<li>SQL</li>
+						<li>Python</li>
+						<!-- <li>HTML</li>
+						<li>CSS</li> -->
+					</ul>
+                    <h3>Analytical Skills</h3>
+					<ul>
+						<li>Data Wrangling</li>
+						<li>Data Modeling</li>
+						<li>Data Visualization</li>
+						<li>Statistical Analysis</li>
+						<li>Report Writing</li>
+					</ul>
+					<h3>Soft Skills</h3>
+					<ul>
+						<li>Detail-Oriented</li>
+						<li>Adaptability</li>
+						<li>Critical Thinking</li>
+						<li>Research</li>
+						<li>Communication</li>
+					</ul>
+                    <h3>Spoken Lanugages</h3>
+					<ul>
+						<li>English (Native)</li>
+						<li>Gujarati</li>
+						<li>Hindi</li>
+						<li>French</li>
+					</ul>
+				</div>
+				<div class="right-column">
+					<h3>A bit about me</h3>
+					<p>
+						Hi I'm Neha, a recent graduate from Georgia Tech with a Master's in Analytics specializing in data and business analytics. Currently, I work as a Operations Change Management Professional at Freddie Mac on the Loan Delivery & Settlement team. My interests lie in both the finance and healthcare industries. I tell stories from data!
+					</p>
+					<p>
+						Here you can find a sample of some notable projects I have completed throughout my learning journey. My most recent project involves working with KIPP Atlanta to analyze student performance and propose intervention strategies as part of Georgia Tech's Analytics Practicum.  I'm currently working on building and expanding my portfolio. 
+					</p>
+                    <p>
+                        Outside of work, I enjoy listening to music, watching movies and tv shows, hiking, painting, photography and traveling. Feel free to get in touch with me. 
+					</p>
+				</div>
+			</div>
+		</section>
+		<section class="work-experience container">
+			<h2>
+				<small>Recent</small>
+				Work Experience
+			</h2>
+			<div class="jobs">
+				<article>
+					<figure>
+						<div>
+                            <a href="https://sf.freddiemac.com/">
+                                <img src="./imgs/freddiemac.jpg" alt="Workplace 1 - Operations" width="100%" />
+                            </a>
+							<figcaption>
+								Workplace - Freddie Mac (FHLMC)
+							</figcaption>
+						</div>
+					</figure>
+					<h3>Operations Change Management Professional</h3>
+					<div>Dec 2022 - current</div>
+					<p>Serving America’s homebuyers, homeowners and renters, making home possible for families. Ensures timely loan settlements, using data analysis to facilitate continuous market liquidity and housing affordability.</p>
+				</article>
+				<article>
+					<figure>
+						<div>
+                            <a href="https://kippatl.org/">
+                                <img src="./imgs/KIPP.jpg" alt="Workplace 2 - KIPP" width="100%" />
+                            </a>
+							<figcaption>
+								Workplace - KIPP Metro Atlanta Schools
+							</figcaption>
+						</div>
+					</figure>
+					<h3>Data Insight Analyst</h3>
+					<div>May 2024 - Aug 2024</div>
+					<p> A network of tuition-free, public charter schools in Atlanta & East Point that focuses on preparing students for success in college, career and beyond. Provided insights into 2023 - 2024 student performance and created intervention strategies for scholars at risk.</p>
+				</article>
+				<article>
+					<figure>
+						<div>
+                            <a href="https://www.amerisave.com/">
+                                <img src="./imgs/amerisave.jpg" alt="Workplace 3 - AmeriSave" width="100%" />
+                            </a>
+							<figcaption>
+								Workplace - AmeriSave Mortgage Corporation
+							</figcaption>
+						</div>
+					</figure>
+					<h3>Senior Underwriting Analyst</h3>
+					<div>Aug 2020 - Dec 2022</div>
+					<p>A privately owned online mortgage lender in the US with strong consumer direct, traditional retail and Third Party Origination (TPO) channels. SME in underwriting credit on hundreds of loans & streamlined underwriting operations.</p>
+				</article>
+			</div>
+		</section>
+        <section id="projects" class="projects container">
+            <h2>
+				<small>
+					Featured
+				</small>
+				Projects
+			</h2>
+            <div class="jobs">
+				<article>
+					<figure>
+						<div>
+                            <a href="https://github.com/nshah-11/divvy-bikesharing">
+                                <img src="./imgs/Divvy.jpg" alt="Project 1 Bikesharing" width="100%" />
+                            </a>
+						</div>
+					</figure>
+					<h3>Divvy Bikesharing</h3>
+					<p>Explored a dataset of 5 + million records, developed predictive models to forecast trip demand, and integrated Random Forest regression model into a Tableau dashboard, providing valuable insights for city planning and resource allocation.
+					</p>
+					<p><b>Tableau | R | Python</b>
+					</p>
+				</article>
+				<article>
+					<figure>
+						<div>
+                            <a href="https://github.com/nshah-11/medical-malpractice">
+                                <img src="./imgs/medmalpractice.jpg" alt="Project 2 MedMalpractice" width="100%" />
+                            </a>
+						</div>
+					</figure>
+					<h3>Medical Malpractice</h3>
+					<p> Applied classification models (Random Forest, Boosting, Logistic Regression, K-Nearest Neighbors) to classify low vs high costs and identify patient attributes linked to higher claim amounts; achieved 92% accuracy.</p>
+					<p><b>R</b> 
+					</p>
+				</article>
+			</div>
+		</section>
+		<section class="projects container">
+            <div class="jobs">
+				<article>
+					<figure>
+						<div>
+                            <a href="https://github.com/nshah-11/reducing-screentime">
+                                <img src="./imgs/screentime.jpg" alt="Project 3 Screentime" width="100%" />
+                            </a>
+						</div>
+					</figure>
+					<h3>Reducing Screentime</h3>
+					<p>A case for adressing high screentime to improve an individual's health and productivity using Excel.</p>
+					<p><b>Awarded Lean Six Sigma Green Belt</b> 
+					</p>
+				</article>
+				<article>
+					<figure>
+						<div>
+                            <a href="https://github.com/nshah-11/bank-marketing">
+                                <img src="./imgs/bankmarketing.jpg" alt="Project 4 BankMarketing" width="100%" />
+                            </a>
+						</div>
+					</figure>
+					<h3>Bank Marketing</h3>
+					<p> Identify ideal profiles for target markets and find a reliable model that predicts closing outcomes.</p>
+					<p><b>R</b> 
+					</p>
+				</article>
+				<!-- <article>
+					<figure>
+						<div>
+                            <a href="">
+                                <img src="./imgs/screentime.jpg" alt="Project 5 Screentime" width="100%" />
+                            </a>
+						</div>
+					</figure>
+					<h3>Reducing Screentime</h3>
+					<p>A business case for adressing high screentime to improve an individual's health and productivity using Excel.</p>
+				</article> -->
+			</div>
+		</section>
+        <section id="certifications" class="certifications container">
+            <h2>
+				<small>
+					Continuous Learning
+				</small>
+				Certifications
+			</h2>
+            <div class="holder-pink">
+				<div class="left-column">
+					<p>
+						Here is a list of all certificates I have received.
+                    </p>
+                    <div class="right-column">
+                        <h3>LSS</h3>
+                        <ul>
+                            <li>Lean Six Sigma Green Belt (2023)</li>
+                        </ul>
+                        <h3>DataQuest</h3>
+                        <ul>
+                            <li>Business Analyst with Power BI Path (2022)</li>
+                        </ul>
+                        <h3>LinkedIn Learning</h3>
+                        <ul>
+                            <li>SQL Essential Training - Updated (2024)</li>
+                            <li>Excel: VLOOKUP and XLOOKUP for Beginners (2023)</li>
+                            <li>Tableau Essential Training (2024)</li>
+                            <li>D3.js Essential Training for Data Scientists (2023)</li>
+                            <li>Excel: Mactros and VBA for Beginners (2023)</li>
+                            <li>SQL Essential Training (2022)</li>
+                        </ul>
+                    </div>
+				</div>
+			</div>
+        </section>
+        <!-- <section id="projects" class="bento container">
+			<h2>
+				<small>
+					Previous
+				</small>
+				Completed Projects
+			</h2>
+			<div class="bento-grid">
+				<a href="#" class="bento-item">
+					<img src="./imgs/bento-1.jpg" alt="BGCCI" width="100%" />
+				</a>
+				<a href="#" class="bento-item">
+					<img src="./imgs/bento-2.jpg" alt="Churhview" width="100%" />
+				</a>
+				<a href="#" class="bento-item">
+					<img src="./imgs/bento-3.jpg" alt="Harley" width="100%" />
+				</a>
+				<a href="#" class="bento-item">
+					<img src="./imgs/bento-5.jpg" alt="Bunbury" width="100%" />
+				</a>
+				<a href="#" class="bento-item">
+					<img src="./imgs/bento-6.jpg" alt="Running" width="100%" />
+				</a>
+				<a href="#" class="bento-item">
+					<img src="./imgs/bento-7.jpg" alt="School" width="100%" />
+				</a>
+			</div>
+		</section> -->
+    </main>
+</body>
+</html>
